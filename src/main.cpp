@@ -31,7 +31,7 @@ LowsideCurrentSense current_sense = LowsideCurrentSense(BLDC_CUR_Rds, BLDC_CUR_G
 
 #ifdef VBAT
 GenericVoltageSense battery = GenericVoltageSense(VBAT,BATTERY_GAIN,0,0.5);
-float battery_voltage,vref;
+float battery_current,battery_voltage,vref;
 #endif
 
 class CIO   // little helper class to demonstrate object oriented programming

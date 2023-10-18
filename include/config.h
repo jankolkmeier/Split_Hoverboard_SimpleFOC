@@ -21,7 +21,7 @@
     #define DEBUG_STLINK rtt
   #else
     #define HOVER_GEN   2
-    #define HOVER_LAYOUT	0
+    #define HOVER_LAYOUT	3
 
     // call motor.initFOC() without parameters to auto align sensor and copy values from debug log
     #define MOTOR_zero_electric_offset  2.09
@@ -34,7 +34,7 @@
 #else
   // LAYOUT_x_y is used in defines.h
   #define HOVER_GEN   2
-  #define HOVER_LAYOUT 0
+  #define HOVER_LAYOUT 3
   //  2_0	// https://github.com/flo199213/Hoverboard-Firmware-Hack-Gen2
   //  2_1	// https://github.com/krisstakos/Hoverboard-Firmware-Hack-Gen2.1
   //  2_2	// 2023/05/11 only MASTER and TEST_SPEED: motor is spinning but needs a push to startup :-/

@@ -25,7 +25,7 @@
 			#include "defines_2-2.h"		// https://github.com/krisstakos/Hoverboard-Firmware-Hack-Gen2.1
 		#endif
 		#if HOVER_LAYOUT == 3
-			#include "defines_2-3.h"		// https://github.com/flo199213/Hoverboard-Firmware-Hack-Gen2
+			#include "defines_2-3.h"		// ME // https://github.com/flo199213/Hoverboard-Firmware-Hack-Gen2
 		#endif
 		#if HOVER_LAYOUT == 4
 			#include "defines_2-4.h"		// https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x/issues/3
